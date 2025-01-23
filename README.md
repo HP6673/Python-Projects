@@ -18,6 +18,7 @@ For the full licensing terms, please check the `LICENSE` file.
 
 ## Repository Structure
 - **`main` Branch**: Contains this `README.md` file and the `CodeStarter` file. The `CodeStarter` file includes the base code snippet that I use to begin each program. It includes the license notice and an overview of the usage requirements. Feel free to use it as a starting point for your own projects, adhering to the licensing conditions outlined above.
+- To access projects, visit the folder named "projects" inside the branch named "main"
 
 ## Contact
 If you have any questions or encounter issues, feel free to reach out via the repository's issue tracker or email 20244064home@gmail.com. 

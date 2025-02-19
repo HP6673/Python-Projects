@@ -1,15 +1,13 @@
 The following is the code that I wil start with in all my project to show parts of the licence and usage rights. 
 
-"""
-This program is licensed under the Hasan Open License (HOL).
+--------------------------------------------------------------------
 
-Overview of requirements:
-1. You must include the following comment at the top of your code:
-   // Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
-2. Ensure this notice is included in all copies or substantial portions of the Software.
-3. The software is provided "AS IS" without warranty of any kind.
-
-Full license details can be found in the LICENSE file or at the repository link above.
-"""
-
-# Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
+# This program is licensed under the Hasan Open License (HOL).
+# 
+# Overview of requirements:
+# 1. You must include the following comment at the top of your code (If Copied and/or Edited):
+#    // Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
+# 2. Ensure this notice is included in all copies or substantial portions of the Software.
+# 3. The software is provided "AS IS" without warranty of any kind.
+#
+# Full license details can be found in the LICENSE file or at the repository link above.

@@ -1,0 +1,57 @@
+# This program is licensed under the Hasan Open License (HOL).
+# 
+# Overview of requirements:
+# 1. You must include the following comment at the top of your code (If Copied and/or Edited):
+#    // Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
+# 2. Ensure this notice is included in all copies or substantial portions of the Software.
+# 3. The software is provided "AS IS" without warranty of any kind.
+#
+# Full license details can be found in the LICENSE file or at the repository link above.
+
+# ---------------------------------------------------------------------------------
+
+# Variable List:
+#   paytype
+#   salary
+#   totalhours
+#   hourlyrate
+#   hoursworked
+#   bonuses
+#   pay
+
+print("----------------------------------------")
+print("---- Welcome to the Payroll Program ----")
+print("----------------------------------------")
+
+
+print("\n-- PAY STRUCTURE --")
+print("Salary - 1, Hourly - 2")
+paytype = int(input("How are you paid? (Use the chart above): "))
+
+
+print("\n-- PAY INFORMATION --")
+if paytype == 1:
+    salary = float(input("What is your salary? "))
+    totalhours = float(input("How many hours do you need to work? (per week): "))
+    hourlyrate = salary/(totalhours*52)
+    hoursworked = float(input("How many hours did you work? "))
+    bonuses = float(input("Did you make any extra money? (Amount): "))
+    pay = (hourlyrate*hoursworked)+bonuses
+elif paytype == 2:
+    hourlyrate = float(input("How much do you make in a hour? "))
+    salary = (hourlyrate*40)*52
+    hoursworked = float(input("How many hours did you work? "))
+    bonuses = float(input("Did you make any extra money? (Amount): "))
+    pay = (hourlyrate*hoursworked)+bonuses
+else:
+    print("You entered a invalid input. Please restart the program.")
+    input()
+    
+
+print("\n-- PAY DISPLAY --")
+print("Your hourly rate is: ${:,.2f}".format(hourlyrate))
+print("Your salary is: ${:,.2f}".format(salary))
+print("You bonus amount is: ${:,.2f}".format(bonuses))
+print("The amount you made is: ${:,.2f}".format(pay))
+
+input("\n-- Press Enter to Exit --")

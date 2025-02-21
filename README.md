@@ -10,7 +10,7 @@ This repository is licensed under the **Hasan Open License (HOL)**. You are free
 However, you must adhere to the following requirements:
 1. Include the following comment at the top of your code:
    ```
-   // Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
+   # Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
    ```
 2. Ensure that the full license notice is included with any copies or substantial portions of the software.
 

@@ -4,7 +4,7 @@ Permission is hereby granted to any person obtaining a copy of this software and
 
 1. A comment must be included at the beginning of the code, in the first line, in the following format:
    ```
-   // Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
+   # Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
    ```
 
 2. This notice shall be included in all copies or substantial portions of the Software.

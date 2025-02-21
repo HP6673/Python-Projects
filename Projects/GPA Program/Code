@@ -1,0 +1,66 @@
+# This program is licensed under the Hasan Open License (HOL).
+# 
+# Overview of requirements:
+# 1. You must include the following comment at the top of your code (If Copied and/or Edited):
+#    // Original code available at: https://github.com/HP6673/Python-Projects.git. Modifications are not the responsibility of the original author.
+# 2. Ensure this notice is included in all copies or substantial portions of the Software.
+# 3. The software is provided "AS IS" without warranty of any kind.
+#
+# Full license details can be found in the LICENSE file or at the repository link above.
+
+# Variable List:
+#   sentry
+#   count
+#   gpa
+#   grade
+#   gpafinal
+#   amount
+
+print("Welcome to the GPA Calculator\n")
+print("-"*20)
+print()
+
+sentry = "y"
+count = 0
+gpa = 0
+amount = 0
+
+while sentry.lower() == "y":
+    grade = input("What is your letter grade? ")
+    grade = grade.lower()
+    amount += 1
+    if grade == "a":
+        count += 1
+        gpa += 4
+    elif grade == "b":
+        count += 1
+        gpa += 3
+    elif grade == "c":
+        count += 1
+        gpa += 2
+    elif grade == "d":
+        count += 1
+        gpa += 1
+    elif grade == "f":
+        count += 1
+        gpa += 0
+    else:
+        print()
+        print("-"*20)
+        print()
+        print("You entered a invalid grade. Please resart the program.")
+        input()
+    gpafinal = gpa/count
+    print()
+    if amount > 1:
+        print("You have entered",amount,"grades.")
+    else:
+        print("You have entered",amount,"grade.")
+    print("Your GPA is",gpafinal)
+    print()
+    sentry = input("Do you want to continue (y or n)? ")
+    print()
+    print("-"*20)
+    print()
+    
+input("Press Enter to Exit")

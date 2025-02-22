@@ -1,0 +1,31 @@
+import random
+
+input("Welcome to the Number Guessing Game. Press enter to begin.")
+print()
+print("-"*20)
+print()
+
+
+number = random.randint(1,100)
+guess = 0
+sentry = "yes"
+
+while sentry.lower() == "yes":
+    
+    guess = int(input("What is your guess? "))
+    
+    if guess > number:
+        print("Too High\n")
+    elif guess < number:
+        print("Too Low\n")
+    elif guess == number:
+        print("You Guessed It")
+        print()
+        sentry = input("Do you want to play again? (Yes or No): ")
+        print()
+        print("-"*20)
+        print()
+    else:
+        input("Something went wrong. Please resart the program.")
+
+input("You have ended the program. Press enter to exit")

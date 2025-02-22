@@ -1,0 +1,13 @@
+import random
+sentry = ""
+
+print("Welcome to the Dice Program")
+print("-"*20)
+
+while sentry == "":
+    sentry = input("Press Enter to roll the dice or type 'exit' to quit: ")
+    roll = random.randint(1, 6)
+    print("Your roll is",roll)
+    print("-"*20)
+    
+input("Press Enter to Exit")
